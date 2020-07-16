@@ -14,9 +14,9 @@ def long_planeteer_calls(assorted_words)
   end
 end
 
-def find_the_cheese(cheese)
-  cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese.find{|cheddar| "cheddar"}
+def find_the_cheese(cheese_types)
+  cheese = ["cheddar", "gouda", "camembert"]
+  cheese_types.find{|cheddar| "cheddar"}
   ingredients = ["garlic", "rosemary", "bread"]
   ingredients{|cheddar| "cheddar"}
 end
